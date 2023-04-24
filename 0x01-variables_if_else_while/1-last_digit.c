@@ -1,21 +1,19 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
 
 
 /**
  * main - Prints a text according to number
- *Return: Always 0
+ * Return: Always 0 (Success)
  *
  */
 
 int main(void)
-
 {
 
-	int n, lastd;
+	int n;
+	int lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -29,7 +27,7 @@ int main(void)
 	{
 	printf("last digit of %d is %d and is 0\n", n, lastd);
 	}
-	else if (lastd < 6 && lastd != 0)
+	else
 	{
 	printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
