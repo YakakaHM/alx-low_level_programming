@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /*
- * main - Prints the first 52 fibonacci numbers
+ * main - Entry point
+ * Description: Prints the first 52 fibonacci numbers
  * Starting with 1 and 2
  * Return: Nothing
  */
